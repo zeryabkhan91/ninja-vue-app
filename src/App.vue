@@ -1,11 +1,12 @@
 <template>
-  <div id="app">
+  <div id="app" class="container">
     <img alt="Vue logo" src="./assets/logo_thumbnail.png" width="100px" height="100px" class="round-logo">
     <HomeScreen></HomeScreen>
   </div>
 </template>
 
 <script>
+import './App.css'
 import HomeScreen from './components/HomeScreen.vue'
 
 export default {
