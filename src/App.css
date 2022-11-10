@@ -1,0 +1,29 @@
+:root {
+  --page-text-color: #ffffff;
+  --items-background-color: #ffffff;
+  --items-hover-background-color: #ffffff;
+  --font-family: "Montserrat", sans-serif;
+  --font-weight: 400;
+  --block-foreground-color: #161616;
+  --block-foreground-color-light: #16161680;
+  --block-foreground-color-lighter: #1616160d;
+  --items-border-color: #ffffff;
+  --items-hover-text-color: #6ed0f8;
+  --items-hover-border-color: #6ed0f8;
+  --cta-text-color: #dbdbdb;
+  --expanded-border-color: #ffffff;
+  --border-radius: 1rem;
+  --border-radius-thumbnail: 0.5rem;
+  --block-background-filter: none;
+}
+.container {
+  display: block;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-image: url("https://res.cloudinary.com/pillario/image/upload/c_thumb,g_custom,w_1920,h_1080/page-background/1a8afd21-5e4c-41e3-a84e-390a2f4fba69?_reload=131c8be0-5f25-11ed-8f58-db7802a7c28f");
+  background-color: #fff;
+}
